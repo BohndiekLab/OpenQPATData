@@ -3,7 +3,10 @@ import matplotlib.pyplot as plt
 import pacfish as pf
 from utils.histogram_colorbar import add_histogram_colorbar
 
+#FIXME: Replace this path with the path to the downloaded dataset
 PATH = r"W:\Group\Data\20250611_OpenQPATData/"
+
+#FIXME: Adjust this to switch between the three PAI devices
 DEVICE = "svot"
 
 PATH_LABELS = f"{PATH}/{DEVICE}/labels/"

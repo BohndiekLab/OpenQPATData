@@ -153,90 +153,92 @@ def interpolate_xyz(path, sigma_inc, sigma_base):
 
     nrrd.write(path.replace("nrrd_manual_labels", "nrrd_extended_labels"), final_segmentation, metadata)
 
+#FIXME: Replace this path with the path to the downloaded dataset
+DATA_PATH = "data/path"
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.1_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.1_700-labels.nrrd",
              sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_xyz(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.2.2_700-labels.nrrd",
+interpolate_xyz(rf"{DATA_PATH}\nrrd_manual_labels\P.5.2.2_700-labels.nrrd",
               sigma_inc=(8, 8, 8), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.2.3_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.2.3_700-labels.nrrd",
               sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.3_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.3_700-labels.nrrd",
               sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.4.2_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.4.2_700-labels.nrrd",
              sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.4.3_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.4.3_700-labels.nrrd",
               sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.5_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.5_700-labels.nrrd",
               sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.6.2_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.6.2_700-labels.nrrd",
               sigma_inc=(8, 8, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.6.3_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.6.3_700-labels.nrrd",
               sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.7_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.7_700-labels.nrrd",
               sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.9_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.9_700-labels.nrrd",
               sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.11_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.11_700-labels.nrrd",
               sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_xyz(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.8.2_700-labels.nrrd",
+interpolate_xyz(rf"{DATA_PATH}\nrrd_manual_labels\P.5.8.2_700-labels.nrrd",
                 sigma_inc=(8, 8, 8), sigma_base=(10, 10, 30))
 
-interpolate_xyz(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.10.2_700-labels.nrrd",
+interpolate_xyz(rf"{DATA_PATH}\nrrd_manual_labels\P.5.10.2_700-labels.nrrd",
                 sigma_inc=(8, 8, 8), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.10.3_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.10.3_700-labels.nrrd",
               sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.13_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.13_700-labels.nrrd",
               sigma_inc=(10, 10, 60), sigma_base=(10, 10, 60))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.14_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.14_700-labels.nrrd",
               sigma_inc=(5, 5, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.15_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.15_700-labels.nrrd",
               sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.16_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.16_700-labels.nrrd",
                sigma_inc=(5, 5, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.19_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.19_700-labels.nrrd",
                sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_xyz(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.20_700-labels.nrrd",
+interpolate_xyz(rf"{DATA_PATH}\nrrd_manual_labels\P.5.20_700-labels.nrrd",
                 sigma_inc=(8, 8, 8), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.21_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.21_700-labels.nrrd",
                sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.22_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.22_700-labels.nrrd",
                sigma_inc=(8, 8, 10), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.23_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.23_700-labels.nrrd",
                sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.24_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.24_700-labels.nrrd",
                 sigma_inc=(10, 10, 15), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.27_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.27_700-labels.nrrd",
                 sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.29_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.29_700-labels.nrrd",
                 sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.31_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.31_700-labels.nrrd",
                 sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))
 
-interpolate_z(r"D:\calibration_paper_data\nrrd_manual_labels\P.5.32_700-labels.nrrd",
+interpolate_z(rf"{DATA_PATH}\nrrd_manual_labels\P.5.32_700-labels.nrrd",
                 sigma_inc=(10, 10, 30), sigma_base=(10, 10, 30))

@@ -3,6 +3,7 @@ from pathlib import Path
 import numpy as np
 import matplotlib.pyplot as plt
 
+#FIXME: Replace this path with the path to the downloaded dataset
 PATH = r"W:\Group\Data\20250611_OpenQPATData/"
 
 PATH_INVISION_LABELS = f"{PATH}/invision/labels/"
