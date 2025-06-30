@@ -1,4 +1,4 @@
-# Code supplementing the paper OpenQPATData: Measurements of tissue-mimicking phantoms with ground truth labels for quantitative photoacoustic imaging
+# Code supplementing the paper OpenQPATData: Measurements of tissue-mimicking phantoms with ground truth labels for quantitative photoacoustic imaging research
 
 Welcome to the repository accompanying the [OpenQPATData dataset](https://doi.org/10.5281/zenodo.14044853),
 a multi-device photoacoustic imaging dataset of 30 tissue-mimicking phantoms,
@@ -6,6 +6,47 @@ imaged with known optical properties.
 This repository contains code examples, visualization scripts,
 and interpolation tools to explore and utilize the dataset
 for algorithm development and validation in quantitative photoacoustic imaging (qPAI).
+
+## Authors and Affiliations
+
+- **Janek Gröhl**  
+  Department of Physics, University of Cambridge, United Kingdom  
+  Cancer Research UK Cambridge Institute, University of Cambridge, United Kingdom  
+  ENI-G, a Joint Initiative of the University Medical Center Göttingen and the Max Planck Institute for Multidisciplinary Sciences, Göttingen, Germany  
+
+- **Sandeep Kumar Kalva**  
+  Institute of Pharmacology and Toxicology and Institute for Biomedical Engineering, Faculty of Medicine, University of Zurich, Switzerland  
+  Institute for Biomedical Engineering, Department of Information Technology and Electrical Engineering, ETH Zurich, Switzerland  
+  Department of Biosciences and Bioengineering, Indian Institute of Technology Bombay, Mumbai, India  
+
+- **Berkan Lafci**  
+  Institute of Pharmacology and Toxicology and Institute for Biomedical Engineering, Faculty of Medicine, University of Zurich, Switzerland  
+  Institute for Biomedical Engineering, Department of Information Technology and Electrical Engineering, ETH Zurich, Switzerland  
+
+- **Francesca Di Cecio**  
+  Department of Physics, University of Cambridge, United Kingdom  
+  Cancer Research UK Cambridge Institute, University of Cambridge, United Kingdom  
+
+- **Ran Tao**  
+  Department of Physics, University of Cambridge, United Kingdom  
+  Cancer Research UK Cambridge Institute, University of Cambridge, United Kingdom  
+
+- **Thomas R. Else**  
+  Department of Physics, University of Cambridge, United Kingdom  
+  Cancer Research UK Cambridge Institute, University of Cambridge, United Kingdom  
+  *Now at:* Department of Bioengineering, Imperial College London, United Kingdom  
+
+- **Lorna Wright**  
+  Department of Physics, University of Cambridge, United Kingdom  
+  Cancer Research UK Cambridge Institute, University of Cambridge, United Kingdom  
+
+- **Daniel Razansky**  
+  Institute of Pharmacology and Toxicology and Institute for Biomedical Engineering, Faculty of Medicine, University of Zurich, Switzerland  
+  Institute for Biomedical Engineering, Department of Information Technology and Electrical Engineering, ETH Zurich, Switzerland  
+
+- **Sarah E. Bohndiek**  
+  Department of Physics, University of Cambridge, United Kingdom  
+  Cancer Research UK Cambridge Institute, University of Cambridge, United Kingdom  
 
 ## What’s in the Dataset?
 
@@ -71,3 +112,8 @@ See the full paper for the complete author list and funding information.
 ---
 License: [MIT](LICENSE)
 Dataset License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+
+## Contact
+
+For questions or feedback, please contact the corresponding author
+

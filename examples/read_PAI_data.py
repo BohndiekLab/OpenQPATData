@@ -13,11 +13,13 @@ labels = np.load(f"{PATH}/{DEVICE}/labels/{PHANTOM}.npy")
 recon = np.load(f"{PATH}/{DEVICE}/recon/{PHANTOM}_{WAVELENGTH}.npy")
 
 # Read the absorption coefficients
-absorption = np.load(f"{PATH}/{DEVICE}/mua/{PHANTOM}.npy")
+absorption = np.load(f"{PATH}/{DEVICE}/mua/{PHANTOM}_{WAVELENGTH}.npy")
 
 # Read the scattering coefficients
-reduced_scattering = np.load(f"{PATH}/{DEVICE}/musp/{PHANTOM}.npy")
+reduced_scattering = np.load(f"{PATH}/{DEVICE}/musp/{PHANTOM}_{WAVELENGTH}.npy")
 
 # Read the time series data
 # FIXME: This data does not exist in the SVOT system: no time series data was shared as the files are huge.
-raw = np.squeeze(pf.load_data(f"{PATH}/{DEVICE}/raw/{PHANTOM}_{WAVELENGTH}_ipasc.hdf5").binary_time_series_data)
+raw = pf.load_data(f"{PATH}/{DEVICE}/raw/{PHANTOM}_{WAVELENGTH}_ipasc.hdf5").binary_time_series_data
+
+print(np.shape(raw))
