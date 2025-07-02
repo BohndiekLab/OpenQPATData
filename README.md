@@ -1,4 +1,4 @@
-# Code supplementing the paper OpenQPATData: Measurements of tissue-mimicking phantoms with ground truth labels for quantitative photoacoustic imaging research
+# Code supplementing the paper OpenQPATData: Measurements of tissue-mimicking phantoms with reference labels for quantitative photoacoustic imaging research
 
 Welcome to the repository accompanying the [OpenQPATData dataset](https://doi.org/10.5281/zenodo.14044853),
 a multi-device photoacoustic imaging dataset of 30 tissue-mimicking phantoms,
