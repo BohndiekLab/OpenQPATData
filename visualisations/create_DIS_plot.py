@@ -35,6 +35,12 @@ ax[0].set_xlabel("Wavelength [nm]", fontweight="bold")
 ax[1].set_xlabel("Wavelength [nm]", fontweight="bold")
 ax[0].set_ylabel("Absorption Coefficient [cm$^{-1}$]", fontweight="bold")
 ax[1].set_ylabel("Reduced Scattering Coefficient [cm$^{-1}$]", fontweight="bold")
+
+ax[0].text(0.01, 0.99, "B", transform=ax[0].transAxes,
+        fontsize=22, fontweight='bold', va='top', ha='left')
+ax[1].text(0.01, 0.99, "C", transform=ax[1].transAxes,
+        fontsize=22, fontweight='bold', va='top', ha='left')
+
 plt.savefig("dis_example.pdf", dpi=300)
 plt.show()
 
