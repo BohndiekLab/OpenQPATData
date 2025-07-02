@@ -1,6 +1,6 @@
-# Code supplementing the paper OpenQPATData: Measurements of tissue-mimicking phantoms with reference labels for quantitative photoacoustic imaging research
+# Code supplementing the paper OpenQPAIData: Measurements of tissue-mimicking phantoms with reference labels for quantitative photoacoustic imaging research
 
-Welcome to the repository accompanying the [OpenQPATData dataset](https://doi.org/10.5281/zenodo.14044853),
+Welcome to the repository accompanying the [OpenQPAIData dataset](https://doi.org/10.5281/zenodo.14044853),
 a multi-device photoacoustic imaging dataset of 30 tissue-mimicking phantoms,
 imaged with known optical properties.
 This repository contains code examples, visualization scripts,
@@ -61,7 +61,7 @@ for algorithm development and validation in quantitative photoacoustic imaging (
 ## Repository Structure
 
 ```
-OpenQPATData/
+OpenQPAIData/
 ├── examples/          # Minimal working examples for loading the dataset
 ├── scripts/           # SVOT 2D slice interpolation to full 3D segmentations
 ├── visualisations/    # Scripts to reproduce all figures from the paper

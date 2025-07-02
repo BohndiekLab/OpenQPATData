@@ -1,14 +1,14 @@
-# Data supplementing the paper OpenQPATData: Measurements of tissue-mimicking phantoms with reference labels for quantitative photoacoustic imaging research
+# Data supplementing the paper OpenQPAIData: Measurements of tissue-mimicking phantoms with reference labels for quantitative photoacoustic imaging research
 
-**OpenQPATData** is a comprehensive dataset of 30 tissue-mimicking phantoms designed for benchmarking and advancing
+**OpenQPAIData** is a comprehensive dataset of 30 tissue-mimicking phantoms designed for benchmarking and advancing
 **quantitative photoacoustic imaging (qPAI)**. It includes raw measurements, reconstructed images, ground-truth 
 segmentations, and matched optical property maps from **three different photoacoustic systems**: MSOT InVision, 
 TROPUS, and SVOT. The dataset supports research into acoustic and optical inverse problems, digital twin validation, 
 and image quality assessment for photoacoustic imaging.
 
-**Associated paper**: _Gröhl et al., OpenQPATData: Measurements of test objects with reference labels for quantitative 
+**Associated paper**: _Gröhl et al., OpenQPAIData: Measurements of test objects with reference labels for quantitative 
 photoacoustic imaging research_   
-**Code Repository**: https://github.com/BohndiekLab/OpenQPATData  
+**Code Repository**: https://github.com/BohndiekLab/OpenQPAIData  
 **License**: CC-BY 4.0 (data), MIT (code)
 
 ## Authors and Affiliations
@@ -109,7 +109,7 @@ OpenPATData/
 
 ## Code Examples
 
-See our [GitHub repo](https://github.com/BohndiekLab/OpenQPATData) for:
+See our [GitHub repo](https://github.com/BohndiekLab/OpenQPAIData) for:
 - Example scripts to load `.npz`, `.npy`, and `.hdf5` data
 - 2D-to-3D interpolation for SVOT labels
 - Visualization tools to replicate figures from the paper
